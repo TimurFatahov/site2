@@ -1,0 +1,45 @@
+
+
+body {
+    
+    height: 1128px;
+    background-color: aqua;
+    background-image: url(images/header.jpg);
+}
+h1 {
+    margin-left: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 260%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color:darkgrey;
+}
+#about {
+    text-align: justify;
+    margin-left: 30em;
+    font-size: 170%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 1em;
+}
+#sidebar {
+    background-image: url(images/sidebar2.jpg);
+    background-color: chartreuse;
+    font-size: 166%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 630px;
+    width: 250px;
+    border-right: 5px solid #404040;
+    border-bottom: 5px solid #404040;
+    border-left: 5px solid #404040;
+    padding: 10px;
+    line-height: 1.4em
+}
